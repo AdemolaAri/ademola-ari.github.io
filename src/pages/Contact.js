@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 import ContactIcons from '../components/Contact/ContactIcons';
+import LinkedinBadge from '../components/Contact/LinkedinBadge';
 
 const Contact = () => (
   <Main
@@ -17,6 +18,7 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>Feel free to get in touch </p>
+        <LinkedinBadge />
       </div>
       <ContactIcons />
     </article>
