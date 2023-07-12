@@ -1,4 +1,4 @@
-export const positions = [
+const positions = [
   {
     company: '84.51°',
     position: 'Software Engineer',
@@ -27,3 +27,5 @@ export const positions = [
     ],
   },
 ];
+
+export default positions;
