@@ -3,8 +3,13 @@
 
 const skills = [
   {
+    title: 'Typescript',
+    competency: 4.5,
+    category: ['Web Development', 'Languages', 'Typescript'],
+  },
+  {
     title: 'Javascript',
-    competency: 3,
+    competency: 4.5,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -16,6 +21,11 @@ const skills = [
     title: 'Node.JS',
     competency: 3,
     category: ['Web Development', 'Javascript'],
+  },
+  {
+    title: 'Angular',
+    competency: 4,
+    category: ['Web Development', 'Javascript', 'Typescript'],
   },
   {
     title: 'React',
@@ -43,9 +53,14 @@ const skills = [
     category: ['Data Science'],
   },
   {
-    title: 'Git/GitLab/GitHub',
-    competency: 3,
-    category: ['Tools'],
+    title: 'Git',
+    competency: 4,
+    category: ['Tools', 'CI/CD'],
+  },
+  {
+    title: 'GitHub/Actions/Workflow',
+    competency: 4,
+    category: ['Tools', 'CI/CD'],
   },
   {
     title: 'Numpy',
@@ -64,12 +79,12 @@ const skills = [
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'Python',
-    competency: 5,
+    competency: 4.5,
     category: ['Languages', 'Python'],
   },
   {
@@ -89,7 +104,7 @@ const skills = [
   },
   {
     title: 'Pandas',
-    competency: 4,
+    competency: 3.5,
     category: ['Data Engineering', 'Data Science', 'Python'],
   },
   {
@@ -101,6 +116,16 @@ const skills = [
     title: 'Scikit-Learn',
     competency: 3,
     category: ['Data Engineering', 'Data Science', 'Python'],
+  },
+  {
+    title: 'Stencil',
+    competency: 3,
+    category: ['Web Development', 'Javascript'],
+  },
+  {
+    title: 'Svelte',
+    competency: 3,
+    category: ['Web Development', 'Javascript', 'Typescript'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
