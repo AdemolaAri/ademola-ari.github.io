@@ -1,9 +1,18 @@
-const positions = [
+export const positions = [
   {
-    company: 'HDMS, a CVS Health Company',
+    company: '84.51°',
     position: 'Software Engineer',
     link: '',
-    daterange: 'September 2020 - Present',
+    daterange: 'January 2023 - Present',
+    points: [
+      'TO-DO',
+    ],
+  },
+  {
+    company: 'HDMS, a CVS Health Company',
+    position: 'Software Development Engineer',
+    link: '',
+    daterange: 'September 2020 - January 2023',
     points: [
       'TO-DO',
     ],
@@ -18,5 +27,3 @@ const positions = [
     ],
   },
 ];
-
-export default positions;
