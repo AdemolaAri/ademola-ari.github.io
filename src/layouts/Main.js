@@ -11,15 +11,17 @@ const Main = (props) => (
   <HelmetProvider>
     <Analytics />
     <ScrollToTop />
-    <Helmet titleTemplate="%s | Ademola Arigbabuwo" defaultTitle="Ademola Arigbabuwo" defer={false}>
+    <Helmet
+      titleTemplate="%s | Ademola Arigbabuwo"
+      defaultTitle="Ademola Arigbabuwo"
+      defer={false}
+    >
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
     <div id="wrapper">
       <Navigation />
-      <div id="main">
-        {props.children}
-      </div>
+      <div id="main">{props.children}</div>
       {props.fullPage ? null : <SideBar />}
     </div>
   </HelmetProvider>
@@ -39,7 +41,7 @@ Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Ademola Arigbabuwo's personal website.",
+  description: 'Ademola Portfolio',
 };
 
 export default Main;

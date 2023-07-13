@@ -7,15 +7,17 @@ import Main from '../layouts/Main';
 // import data from '../data/blog';
 
 const Blog = () => (
-  <Main
-    title="Blog"
-    description="Ademola Arigbabuwo &apos; Blog Posts."
-  >
+  <Main title="Blog" description="Ademola Arigbabuwo ' Blog Posts.">
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/blog">Blog</Link></h2>
-          <p>I plan to put everything I think the rest of the world should know about here</p>
+          <h2 data-testid="heading">
+            <Link to="/blog">Blog</Link>
+          </h2>
+          <p>
+            I plan to put everything I think the rest of the world should know
+            about here
+          </p>
         </div>
       </header>
       {/* data.map((project) => (
