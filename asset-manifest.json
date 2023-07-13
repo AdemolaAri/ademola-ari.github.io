@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/ademola-ari.github.io/static/css/main.c6170f4d.css",
-    "main.js": "/ademola-ari.github.io/static/js/main.62d063a0.js",
-    "static/js/964.ca990239.chunk.js": "/ademola-ari.github.io/static/js/964.ca990239.chunk.js",
+    "main.js": "/ademola-ari.github.io/static/js/main.ab9afc2c.js",
+    "static/js/964.bb4ab8c3.chunk.js": "/ademola-ari.github.io/static/js/964.bb4ab8c3.chunk.js",
     "static/js/467.1542a90d.chunk.js": "/ademola-ari.github.io/static/js/467.1542a90d.chunk.js",
-    "static/js/478.022837b0.chunk.js": "/ademola-ari.github.io/static/js/478.022837b0.chunk.js",
+    "static/js/478.d8bf0188.chunk.js": "/ademola-ari.github.io/static/js/478.d8bf0188.chunk.js",
     "static/js/922.fefd4601.chunk.js": "/ademola-ari.github.io/static/js/922.fefd4601.chunk.js",
-    "static/js/250.88b3a71b.chunk.js": "/ademola-ari.github.io/static/js/250.88b3a71b.chunk.js",
-    "static/js/589.f165c10d.chunk.js": "/ademola-ari.github.io/static/js/589.f165c10d.chunk.js",
+    "static/js/250.d5c673af.chunk.js": "/ademola-ari.github.io/static/js/250.d5c673af.chunk.js",
+    "static/js/589.d7244da6.chunk.js": "/ademola-ari.github.io/static/js/589.d7244da6.chunk.js",
     "static/js/209.d464d894.chunk.js": "/ademola-ari.github.io/static/js/209.d464d894.chunk.js",
     "static/js/312.185e5091.chunk.js": "/ademola-ari.github.io/static/js/312.185e5091.chunk.js",
     "index.html": "/ademola-ari.github.io/index.html",
     "main.c6170f4d.css.map": "/ademola-ari.github.io/static/css/main.c6170f4d.css.map",
-    "main.62d063a0.js.map": "/ademola-ari.github.io/static/js/main.62d063a0.js.map",
-    "964.ca990239.chunk.js.map": "/ademola-ari.github.io/static/js/964.ca990239.chunk.js.map",
+    "main.ab9afc2c.js.map": "/ademola-ari.github.io/static/js/main.ab9afc2c.js.map",
+    "964.bb4ab8c3.chunk.js.map": "/ademola-ari.github.io/static/js/964.bb4ab8c3.chunk.js.map",
     "467.1542a90d.chunk.js.map": "/ademola-ari.github.io/static/js/467.1542a90d.chunk.js.map",
-    "478.022837b0.chunk.js.map": "/ademola-ari.github.io/static/js/478.022837b0.chunk.js.map",
+    "478.d8bf0188.chunk.js.map": "/ademola-ari.github.io/static/js/478.d8bf0188.chunk.js.map",
     "922.fefd4601.chunk.js.map": "/ademola-ari.github.io/static/js/922.fefd4601.chunk.js.map",
-    "250.88b3a71b.chunk.js.map": "/ademola-ari.github.io/static/js/250.88b3a71b.chunk.js.map",
-    "589.f165c10d.chunk.js.map": "/ademola-ari.github.io/static/js/589.f165c10d.chunk.js.map",
+    "250.d5c673af.chunk.js.map": "/ademola-ari.github.io/static/js/250.d5c673af.chunk.js.map",
+    "589.d7244da6.chunk.js.map": "/ademola-ari.github.io/static/js/589.d7244da6.chunk.js.map",
     "209.d464d894.chunk.js.map": "/ademola-ari.github.io/static/js/209.d464d894.chunk.js.map",
     "312.185e5091.chunk.js.map": "/ademola-ari.github.io/static/js/312.185e5091.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6170f4d.css",
-    "static/js/main.62d063a0.js"
+    "static/js/main.ab9afc2c.js"
   ]
 }
