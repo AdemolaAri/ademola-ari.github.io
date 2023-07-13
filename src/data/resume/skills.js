@@ -14,7 +14,7 @@ const skills = [
   },
   {
     title: 'SAS',
-    competency: 5,
+    competency: 4.5,
     category: ['Languages', 'Databases', 'Data Engineering'],
   },
   {

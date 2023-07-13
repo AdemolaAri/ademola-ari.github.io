@@ -14,30 +14,23 @@ import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
 
-const sections = [
-  'Skills',
-  'Experience',
-  'Education',
-  'Courses',
-  'References',
-];
+const sections = ['Experience', 'Education', 'Skills', 'References'];
 
 const Resume = () => (
-  <Main
-    title="Resume"
-    description="Ademola Arigbabuwo's Resume. Software Engineer, Aetna, CVS Health"
-  >
+  <Main title="Resume" description="Ademola Arigbabuwo's Resume">
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading">
+            <Link to="resume">Resume</Link>
+          </h2>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
+              </h4>
+            ))}
           </div>
-
         </div>
       </header>
       <Skills skills={skills} categories={categories} />
@@ -48,7 +41,6 @@ const Resume = () => (
       <br />
       <br />
       <References />
-
     </article>
   </Main>
 );
