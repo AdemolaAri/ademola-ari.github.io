@@ -12,7 +12,7 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            Welcome to my personal website! I'm delighted to have you here.
+            Welcome to my personal website! I&apos;m delighted to have you here.
             Please feel free to read more <Link to="/about">about me</Link>, or
             you can check out my <Link to="/resume">resume</Link>,{' '}
             <Link to="/blog">blog site </Link>
